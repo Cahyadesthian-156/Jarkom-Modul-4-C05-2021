@@ -148,3 +148,125 @@ Perhitungan pada teknik CIDR (Classless Inter Domain Routing) berdasarkan jumlah
 
 ● Melakukan labelling netmask dengan langkah-langkah sebagai berikut:
 
+
+
+
+● Membuat topologi pada GNS3 sebagai berikut:
+● Membuat konfigurasi pada GNS3 sebagai berikut: 
+**Foosha**
+```
+auto eth0
+iface eth0 inet dhcp
+
+auto eth1
+iface eth1 inet static
+        address 192.186.64.1
+        netmask 255.255.255.252
+
+auto eth2
+iface eth2 inet static
+         address 192.186.192.1
+         netmask 255.255.255.252
+
+auto eth3
+iface eth3 inet static
+        address 192.168.1.1
+        netmask 255.255.255.252
+
+auto eth4
+iface eth4 inet static
+        address 192.186.32.1
+        netmask 255.255.255.252
+```
+**Water7**
+```
+auto eth0
+iface eth0 inet static
+       address 192.186.192.2
+       netmask 255.255.255.252
+       gateway 192.186.192.1
+auto eth1
+iface eth1 inet static
+       address 192.186.144.1
+       netmask 255.255.255.252
+auto eth2
+iface eth2 inet static
+         address 192.186.160.1
+         netmask 255.255.252.0
+```
+**Pucci**
+```
+auto eth0
+iface eth0 inet static
+         address 192.186.144.2
+         netmask 255.255.255.252
+         gateway 192.186.144.1
+auto eth1
+iface eth1 inet static
+         address 192.186.136.1
+         netmask 255.255.255.128
+auto eth2
+iface eth2 inet static
+         address 192.186.128.1
+         netmask 255.255.248.0
+```
+**Guanhao**
+```
+auto eth0
+iface eth0 inet static
+          address 192.186.32.2
+          netmask 255.255.255.252
+          gateway 192.186.32.1
+auto eth1
+iface eth1 inet static
+          address 192.186.20.1
+          netmask 255.255.252.0
+auto eth2
+iface eth2 inet static
+          address 192.186.8.1
+          netmask 255.255.255.252
+auto eth3
+iface eth3 inet static
+           address 192.186.16.1
+          netmask 255.255.254.0
+```
+**Alabasta**
+```
+auto eth0
+iface eth0 inet static
+       address 192.186.18.1
+       netmask 255.255.254.0
+auto eth1
+iface eth1 inet static
+       address 192.186.16.2
+       netmask 255.255.255.240
+       gateway 192.186.16.1
+```
+**Oimo**
+```
+auto eth0
+iface eth0 inet static
+         address 192.186.8.2
+         netmask 255.255.255.252
+         gateway 192.186.8.1
+auto eth1
+iface eth1 inet static
+          address 192.186.4.1
+          netmask 255.255.255.0
+auto eth2
+iface eth2 inet static
+           address 192.168.1.5
+           netmask 255.255.255.252
+```
+**Seastone**
+```
+auto eth0
+iface eth0 inet static
+        address 192.186.4.2
+        netmask 255.255.255.0
+        gateway 192.186.4.1
+auto eth1
+iface eth1 inet static
+        address 192.186.0.1
+        netmask 255.255.252.0
+```
