@@ -368,7 +368,9 @@ iface eth0 inet static
 	    gateway 192.168.1.1
 ```
 ● Kemudian uncomment `net.ipv4.ip_forward=1` pada file `/etc/sysctl.conf` pada semua router.
+
 ● Pada router foosha lakukan perintah `iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE -s 192.186.0.0/16` agar terhubung ke internet
+
 ● Lalu, lakukan routing dengan file `route.sh` pada dokumen `\root`. Kemudian jalankan dengan perintah  `source route.sh`
 
 **Foosha**
