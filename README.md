@@ -152,6 +152,7 @@ Perhitungan pada teknik CIDR (Classless Inter Domain Routing) berdasarkan jumlah
 
 
 ● Membuat topologi pada GNS3 sebagai berikut:
+![ricky-topologi](https://user-images.githubusercontent.com/81076281/143621335-955199a5-10a8-4832-9edd-dc44ac798fad.PNG)
 ● Membuat konfigurasi pada GNS3 sebagai berikut: 
 
 **Foosha**
