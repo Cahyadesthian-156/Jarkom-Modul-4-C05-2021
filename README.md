@@ -153,6 +153,7 @@ Perhitungan pada teknik CIDR (Classless Inter Domain Routing) berdasarkan jumlah
 
 ● Membuat topologi pada GNS3 sebagai berikut:
 ● Membuat konfigurasi pada GNS3 sebagai berikut: 
+
 **Foosha**
 ```
 auto eth0
@@ -269,4 +270,136 @@ auto eth1
 iface eth1 inet static
         address 192.186.0.1
         netmask 255.255.252.0
+```
+**Blueno**
+```
+auto eth0
+iface eth0 inet static
+        address 192.186.64.2
+        netmask 255.255.252.0
+        gateway 192.186.64.1
+```
+**Chiper**
+```
+auto eth0
+iface eth0 inet static
+       address 192.186.160.2
+       netmask 255.255.252.0
+       gateway 192.186.160.1
+```
+**Jipangu**
+```
+auto eth0
+iface eth0 inet static
+	     address 192.186.136.2
+	     netmask 255.255.255.128
+	     gateway 192.186.136.1
+```
+**Calmbert**
+```
+auto eth0
+iface eth0 inet static
+	     address 192.186.128.2
+	     netmask 255.255.248.0
+	     gateway 192.186.128.1
+```
+**CourtYard**
+```
+auto eth0
+iface eth0 inet static
+       address 192.186.128.3
+       netmask 255.255.248.0
+       gateway 192.186.128.1
+```
+**Jabra**
+```
+auto eth0
+iface eth0 inet static
+        address 192.186.20.2
+        netmask 255.255.252.0
+        gateway 192.186.20.1
+```
+**EinesLobby**
+```
+auto eth0
+iface eth0 inet static
+         address 192.186.4.3
+         netmask 255.255.255.0
+         gateway 192.186.4.1
+```
+**Elena**
+```
+auto eth0
+iface eth0 inet static
+         address 192.186.0.2
+         netmask 255.255.252.0
+         gateway 192.186.0.1
+```
+**MainGate**
+```
+auto eth0
+iface eth0 inet static
+      address 192.186.16.3
+      netmask 255.255.254.0
+      gateway 192.186.16.1
+```
+**Jorge**
+```
+auto eth0
+iface eth0 inet static
+         address 192.186.18.2
+         netmask 255.255.255.240
+         gateway 192.186.18.1
+```
+**Fukurou**
+```
+auto eth0
+iface eth0 inet static
+	     address 192.168.1.6
+	     netmask 255.255.255.252
+	     gateway 192.168.1.5
+```
+**Doriki**
+```
+auto eth0
+iface eth0 inet static
+	    address 192.168.1.2
+	    netmask 255.255.255.252
+	    gateway 192.168.1.1
+```
+● Kemudian uncomment `net.ipv4.ip_forward=1` pada file `/etc/sysctl.conf` pada semua router.
+● Pada router foosha lakukan perintah `iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE -s 192.186.0.0/16` agar terhubung ke internet
+● Lalu, lakukan routing dengan file `route.sh` pada dokumen `\root`. Kemudian jalankan dengan perintah  `source route.sh`
+
+**Foosha**
+```
+route add -net 192.186.144.0 netmask 255.255.255.252 gw 192.186.192.2
+route add -net 192.186.136.0 netmask 255.255.255.128 gw 192.186.192.2
+route add -net 192.186.160.0 netmask 255.255.252.0 gw 192.186.192.2
+route add -net 192.186.128.0 netmask 255.255.248.0 gw 192.186.192.2
+route add -net 192.186.8.0 netmask 255.255.255.252 gw 192.186.32.2
+route add -net 192.186.20.0 netmask 255.255.252.0 gw 192.186.32.2
+route add -net 192.186.18.0 netmask 255.255.255.240 gw 192.186.32.2
+route add -net 192.186.16.0 netmask 255.255.254.0 gw 192.186.32.2
+route add -net 192.186.4.0 netmask 255.255.255.0 gw 192.186.32.2
+route add -net 192.186.0.0 netmask 255.255.252.0 gw 192.186.32.2
+#routing ke server-FUKUROU via OIMO
+route add -net 192.186.1.4 netmask 255.255.255.252 gw 192.186.32.2
+```
+**Guanhao**
+```
+route add -net 192.186.4.0 netmask 255.255.255.0 gw 192.186.8.2
+route add -net 192.186.0.0 netmask 255.255.252.0 gw 192.186.8.2
+route add -net 192.186.18.0 netmask 255.255.254.0 gw 192.186.16.2
+#routing ke server-FUKUROU via OIMO
+route add -net 192.168.1.4 netmask 255.255.255.252 gw 192.186.8.2
+```
+**Water7**
+```
+route add -net 192.186.128.0 netmask 255.255.248.0 gw 192.186.144.2
+route add -net 192.186.136.0 netmask 255.255.255.128 gw 192.186.144.2
+```
+**OIMO**
+```
+route add -net 192.186.0.0 netmask 255.255.252.0 gw 192.186.4.2
 ```
