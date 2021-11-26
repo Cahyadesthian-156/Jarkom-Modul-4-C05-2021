@@ -144,6 +144,7 @@ Subnet, jumlah IP untuk mendapatkan netmask dari tiap subnet ditunjukkan oleh ta
 
 
 ## 💻 CIDR (Classless Inter Domain Routing)
-...
-...
-...
+Perhitungan pada teknik CIDR (Classless Inter Domain Routing) berdasarkan jumlah komputer/ host yang ada di dalam subnet dengan menggunakan GN3.
+
+● Melakukan labelling netmask dengan langkah-langkah sebagai berikut:
+
