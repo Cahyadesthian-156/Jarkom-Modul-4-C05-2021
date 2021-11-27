@@ -9,10 +9,11 @@ Cahyadesthian R. W. (05111940000156)
 ### 📅 21 - 23 November 2021 
                   
 ### Topologi Soal : 
-![topologi](https://user-images.githubusercontent.com/90148155/143158928-8362f14d-e3e1-4041-b7c9-e516978ae409.png)
+<img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/soal-shift.png" width="800"> 
 
 ## 💻 VLSM (Variable Length Subnet Masking)
-![subnet](https://user-images.githubusercontent.com/90148155/143578001-e040b22b-de58-43cf-b1c0-bd28d0350c71.png)
+<img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/pembagian.png" width="800"> 
+
 
 
 #### Jumlah Alamat IP
@@ -36,7 +37,7 @@ Subnet, jumlah IP untuk mendapatkan netmask dari tiap subnet ditunjukkan oleh ta
 | Total  | 5841 | /19 |
 
 ### Tree
-![tree-vslm](https://user-images.githubusercontent.com/90148155/143574438-f063d69f-141b-44f5-88f5-b46dc8160cae.png)
+<img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/tree.png" width="800"> 
 
 ### Pengaturan Konfigurasi IP
 ●	Pada Foosha
@@ -45,7 +46,7 @@ Subnet, jumlah IP untuk mendapatkan netmask dari tiap subnet ditunjukkan oleh ta
 2.	Mengarah Blueno                                             
     192.186.16.1 subnet 255.255.252.0
 3.	Mengarah Server Doriki                                                              
-    192.168.73.30 subnet 255.255.255.252
+    192.186.0.33 subnet 255.255.255.240
 4.	Mengarah Guanhao                                                                          
     192.186.0.5 subnet 255.255.255.252
 5.	Mengarah Water7                                                                                           
@@ -89,7 +90,7 @@ Subnet, jumlah IP untuk mendapatkan netmask dari tiap subnet ditunjukkan oleh ta
 1.	Mengarah Guanhao                                                          
     192.186.0.2 subnet 255.255.255.252
 2.	Mengarah Server Fukurou                                                     
-    192.168.73.26 subnet 255.255.255.0
+    192.186.0.49 subnet 255.255.255.240
 3.	Mengarah Seastone                                                                 
     192.186.1.1 subnet 255.255.255.0
                           
@@ -100,43 +101,51 @@ Subnet, jumlah IP untuk mendapatkan netmask dari tiap subnet ditunjukkan oleh ta
     192.186.4.1 subnet 255.255.252.0
 
 ●	Pada Jipangu
-![ricky-onJipangu](https://user-images.githubusercontent.com/90148155/143575155-849bc36e-278a-40ca-8e68-6dcfb6256079.png)
+<img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/jipangu.png" width="800"> 
 
 
 ●	Pada Courtyard
-![ricky-onCourtyard](https://user-images.githubusercontent.com/90148155/143575653-2b39c906-3556-45ee-bbe9-d693eae1fb91.png)
+<img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/courtyard.png" width="800"> 
 
 
 ●	Pada Calmbelt
-![ricky-onCalmbelt](https://user-images.githubusercontent.com/90148155/143575674-a098a641-15ee-4ce5-9ac3-3d9dc0288874.png)
+<img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/calmbelt.png" width="800"> 
 
 
 ●	Pada Cipher
-![ricky-onCipher](https://user-images.githubusercontent.com/90148155/143575688-6967dcd5-7408-4b99-8e6a-0c0eef058d39.png)
+<img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/cipher.png" width="800"> 
 
 
 ●	Pada Blueno
-![ricky-onBlueno](https://user-images.githubusercontent.com/90148155/143575731-ab8ffb08-0110-4ff5-93e1-db2131ab0a9b.png)
+<img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/blueno.png" width="800"> 
 
 
 ●	Pada Jabra
-![ricky-onJabra](https://user-images.githubusercontent.com/90148155/143575759-959dfb26-4378-4e61-a36f-15432f7fa38f.png)
+<img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/jabra.png" width="800"> 
 
 
 ●	Pada Maingate
-![ricky-onMaingate](https://user-images.githubusercontent.com/90148155/143575781-932f8f6b-4ce0-44f1-8313-e049a9f6da3d.png)
+<img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/maingate.png" width="800"> 
 
 
 ●	Pada Jorge
-![ricky-onJorge](https://user-images.githubusercontent.com/90148155/143575789-0ab0df7d-93ca-4aff-a34d-8b188e1ac159.png)
+<img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/jorge.png" width="800"> 
 
 
 ●	Pada Enieslobby
-![ricky-onEniesLobby](https://user-images.githubusercontent.com/90148155/143575798-4f0c6895-9be7-4d12-af08-1ed3b0fbecfe.png)
+<img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/enieslobby.png" width="800"> 
 
 ●	Pada Elena
-![ricky-onElena](https://user-images.githubusercontent.com/90148155/143575807-f4f9c62b-8f64-4ea9-b395-bc59ebb285fb.png)
+<img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/elena.png" width="800"> 
 
+●	Pada Fukurou
+<img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/fukurou.png" width="800"> 
+
+●	Pada Doriki
+<img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/doriki.png" width="800"> 
+
+Pada Server Doriki memiliki IP 192.186.0.32 
+Pada Server Fukurou memiliki IP 192.186.0.48
 
 
 ### Pengaturan Routing
