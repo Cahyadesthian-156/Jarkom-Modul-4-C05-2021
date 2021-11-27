@@ -149,8 +149,65 @@ Pada Server Fukurou memiliki IP 192.186.0.48
 
 
 ### Pengaturan Routing
-●	Pada ...
+Untuk langkah nya bisa masuk kedalam router, lalu menekan menu static dan menambahkan data yang di inginkan
 
+
+●	Pada Pada Foosha
+
+1. 192.186.4.0/22 via 192.186.0.6
+2. 192.186.1.0/24 via 192.186.0.6
+3. 192.186.0.16/28 via 192.186.0.6
+4. 192.186.2.0/23 via 192.186.0.6
+5. 192.186.8.0/22 via 192.186.0.6
+6. 192.186.0.0/30 via 192.186.0.6
+7. 192.186.12.0/22 via 192.186.0.10
+8. 192.186.0.12/30 via 192.186.0.10
+9. 192.186.0.128/25 via 192.186.0.10
+10. 192.186.0.48/28 via 192.186.0.6
+11. 192.186.24.0/21 via 192.186.0.10
+
+
+●	Pada Water7
+1. 0.0.0.0/0 via 192.186.0.9
+2. 192.186.24.0/21 via 192.186.0.14
+3. 192.186.0.128/25 via 192.186.0.14
+
+
+●	Pada Pucci
+1. 0.0.0.0/0 via 192.186.0.13
+
+
+●	Pada Guanhao
+1. 0.0.0.0/0 via 192.186.0.5
+2. 192.186.4.0/22 via 192.186.0.2
+3. 192.186.1.0/24 via 192.186.0.2
+4. 192.186.0.16/28 via 192.186.2.2
+5. 192.186.0.48/28 via 192.186.0.2
+
+
+●	Pada Alabasta
+1. 0.0.0.0/0 via 192.186.2.1
+
+
+●	Pada OIMO
+1. 0.0.0.0/0 via 192.186.0.1
+2. 192.186.4.0/22 via 192.186.1.2
+
+
+●	Pada Seastone
+1. 0.0.0.0/0 via 192.186.1.1
+
+
+### Testing
+Untuk testing sendiri dapat dilakukan dengan cara berikut:
+1. Klik Menu `Add Simple PDU`
+2. Pilih Source
+3. Pilih Destination
+4. Cek apakah ping tersebut success atau tidak
+
+
+Berikut adalah contohnya:
+<img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/simulasi.png" width="800">
 
 ## 💻 CIDR (Classless Inter Domain Routing)
 Perhitungan pada teknik CIDR (Classless Inter Domain Routing) berdasarkan jumlah komputer/ host yang ada di dalam subnet dengan menggunakan GN3.
