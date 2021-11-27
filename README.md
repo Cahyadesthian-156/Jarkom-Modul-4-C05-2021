@@ -472,3 +472,14 @@ route add -net 192.186.136.0 netmask 255.255.255.128 gw 192.186.144.2
 ```
 route add -net 192.186.0.0 netmask 255.255.252.0 gw 192.186.4.2
 ```
+
+
+
+### Kendala Praktikum:
+
+-> Pada file .cpt tidak dapat melakukan pingdari server fukurou ke server doriki (sudah diselesaikan)
+
+-> Tidak dapat menyambungkan 5 kabel dalam FOOSHA (sudah diselesaikan)
+
+-> Saat dilakukan simulation ping pada file .cpt akan berjalan sangat lama
+
