@@ -101,26 +101,32 @@ Subnet, jumlah IP untuk mendapatkan netmask dari tiap subnet ditunjukkan oleh ta
     192.186.4.1 subnet 255.255.252.0
 
 ●	Pada Jipangu
+
 <img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/jipangu.png" width="800"> 
 
 
 ●	Pada Courtyard
+
 <img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/courtyard.png" width="800"> 
 
 
 ●	Pada Calmbelt
+
 <img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/calmbelt.png" width="800"> 
 
 
 ●	Pada Cipher
+
 <img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/cipher.png" width="800"> 
 
 
 ●	Pada Blueno
+
 <img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/blueno.png" width="800"> 
 
 
 ●	Pada Jabra
+
 <img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/jabra.png" width="800"> 
 
 
@@ -129,19 +135,24 @@ Subnet, jumlah IP untuk mendapatkan netmask dari tiap subnet ditunjukkan oleh ta
 
 
 ●	Pada Jorge
+
 <img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/jorge.png" width="800"> 
 
 
 ●	Pada Enieslobby
+
 <img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/enieslobby.png" width="800"> 
 
 ●	Pada Elena
+
 <img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/elena.png" width="800"> 
 
 ●	Pada Fukurou
+
 <img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/fukurou.png" width="800"> 
 
 ●	Pada Doriki
+
 <img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/doriki.png" width="800"> 
 
 Pada Server Doriki memiliki IP 192.186.0.32 
