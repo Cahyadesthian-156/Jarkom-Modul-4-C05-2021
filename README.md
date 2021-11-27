@@ -214,11 +214,26 @@ Perhitungan pada teknik CIDR (Classless Inter Domain Routing) berdasarkan jumlah
 
 ● Melakukan labelling netmask dengan langkah-langkah sebagai berikut:
 
+**Lankgah 1**
+![ricky-langkah1](https://user-images.githubusercontent.com/81076281/143667092-af949808-4a4f-482f-bf45-a0ba029d84e6.png)
 
+**Lankgah 2**
+![ricky-langkah2](https://user-images.githubusercontent.com/81076281/143667154-cacf0ca8-2e64-4b08-a066-bcce84b2efb2.png)
 
+**Lankgah 3**
+![ricky-langkah3](https://user-images.githubusercontent.com/81076281/143667175-2dd2f297-5e26-4824-8ec0-e8468b536384.png)
+
+**Lankgah 4**
+![ricky-langkah4](https://user-images.githubusercontent.com/81076281/143667203-bf0c4931-5de7-4b1a-8705-a8c152243207.png)
+
+**Lankgah 5**
+![ricky-langkah5](https://user-images.githubusercontent.com/81076281/143667209-96ba060f-7bf9-4354-ade6-0ebd85e2ce94.png)
+
+**Lankgah 6**
+![ricky-langkah6](https://user-images.githubusercontent.com/81076281/143667232-7406168e-16c6-4142-8c8f-62c6add91703.png)
 
 ● Membuat topologi pada GNS3 sebagai berikut:
-![ricky-topologi](https://user-images.githubusercontent.com/81076281/143621335-955199a5-10a8-4832-9edd-dc44ac798fad.PNG)
+![ricky-topologi](https://user-images.githubusercontent.com/81076281/143666580-86015d35-4f27-47fa-8af8-896f80064d29.PNG)
 ● Membuat konfigurasi pada GNS3 sebagai berikut: 
 
 **Foosha**
