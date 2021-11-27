@@ -131,6 +131,7 @@ Subnet, jumlah IP untuk mendapatkan netmask dari tiap subnet ditunjukkan oleh ta
 
 
 ●	Pada Maingate
+
 <img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/maingate.png" width="800"> 
 
 
