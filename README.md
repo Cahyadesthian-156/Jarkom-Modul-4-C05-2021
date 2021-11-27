@@ -9,9 +9,11 @@ Cahyadesthian R. W. (05111940000156)
 ### 📅 21 - 23 November 2021 
                   
 ### Topologi Soal : 
+
 <img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/soal-shift.png" width="800"> 
 
 ## 💻 VLSM (Variable Length Subnet Masking)
+
 <img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/pembagian.png" width="800"> 
 
 
@@ -37,6 +39,7 @@ Subnet, jumlah IP untuk mendapatkan netmask dari tiap subnet ditunjukkan oleh ta
 | Total  | 5841 | /19 |
 
 ### Tree
+
 <img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/tree.png" width="800"> 
 
 ### Pengaturan Konfigurasi IP
@@ -219,6 +222,7 @@ Untuk testing sendiri dapat dilakukan dengan cara berikut:
 
 
 Berikut adalah contohnya:
+
 <img src="https://github.com/Cahyadesthian-156/Jarkom-Modul-4-C05-2021/blob/main/img/simulasi.png" width="800">
 
 ## 💻 CIDR (Classless Inter Domain Routing)
