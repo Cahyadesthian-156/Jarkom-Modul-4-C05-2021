@@ -336,13 +336,13 @@ iface eth3 inet static
 ```
 auto eth0
 iface eth0 inet static
-       address 192.186.18.1
-       netmask 255.255.254.0
-auto eth1
-iface eth1 inet static
        address 192.186.16.2
        netmask 255.255.255.240
        gateway 192.186.16.1
+auto eth1
+iface eth1 inet static
+       address 192.186.18.1
+       netmask 255.255.254.0
 ```
 **Oimo**
 ```
