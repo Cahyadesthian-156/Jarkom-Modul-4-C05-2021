@@ -537,6 +537,7 @@ route add -net 192.186.0.0 netmask 255.255.252.0 gw 192.186.4.2
 ![ricky-testing12](https://user-images.githubusercontent.com/81076281/143668635-b4cd3897-aac7-4bc8-a992-4746526b2d7d.PNG)
 
 **Catatan**
+
 Untuk ping ke google.com, setiap client atau server menggunakan perintah `echo nameserver 192.168.122.1 > /etc/resolv.conf`
 
 ### Kendala Praktikum:
